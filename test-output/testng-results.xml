@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80" started-at="2017-08-16T00:19:25Z" finished-at="2017-08-16T00:19:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80" started-at="2017-08-16T00:19:25Z" finished-at="2017-08-16T00:19:26Z">
+      <class name="co.edu.uelbosque.swii.calculadora.NewTest">
+        <test-method status="PASS" signature="debeDividirCorrectamente()[pri:0, instance:co.edu.uelbosque.swii.calculadora.NewTest@61a485d2]" name="debeDividirCorrectamente" duration-ms="13" started-at="2017-08-15T19:19:25Z" finished-at="2017-08-15T19:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- debeDividirCorrectamente -->
+        <test-method status="PASS" signature="debeMultiplicarCorrectamente()[pri:0, instance:co.edu.uelbosque.swii.calculadora.NewTest@61a485d2]" name="debeMultiplicarCorrectamente" duration-ms="2" started-at="2017-08-15T19:19:25Z" finished-at="2017-08-15T19:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- debeMultiplicarCorrectamente -->
+        <test-method status="PASS" signature="debeRestarCorrectamente()[pri:0, instance:co.edu.uelbosque.swii.calculadora.NewTest@61a485d2]" name="debeRestarCorrectamente" duration-ms="8" started-at="2017-08-15T19:19:25Z" finished-at="2017-08-15T19:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- debeRestarCorrectamente -->
+        <test-method status="PASS" signature="debeSumarCorrectamente()[pri:0, instance:co.edu.uelbosque.swii.calculadora.NewTest@61a485d2]" name="debeSumarCorrectamente" duration-ms="6" started-at="2017-08-15T19:19:25Z" finished-at="2017-08-15T19:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- debeSumarCorrectamente -->
+        <test-method status="PASS" signature="laOperacionDivisionExiste()[pri:0, instance:co.edu.uelbosque.swii.calculadora.NewTest@61a485d2]" name="laOperacionDivisionExiste" duration-ms="2" started-at="2017-08-15T19:19:25Z" finished-at="2017-08-15T19:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laOperacionDivisionExiste -->
+        <test-method status="PASS" signature="laOperacionMultiplicacionExiste()[pri:0, instance:co.edu.uelbosque.swii.calculadora.NewTest@61a485d2]" name="laOperacionMultiplicacionExiste" duration-ms="1" started-at="2017-08-15T19:19:25Z" finished-at="2017-08-15T19:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laOperacionMultiplicacionExiste -->
+        <test-method status="PASS" signature="laOperacionRestaExiste()[pri:0, instance:co.edu.uelbosque.swii.calculadora.NewTest@61a485d2]" name="laOperacionRestaExiste" duration-ms="1" started-at="2017-08-15T19:19:25Z" finished-at="2017-08-15T19:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laOperacionRestaExiste -->
+        <test-method status="PASS" signature="laOperacionSumaExiste()[pri:0, instance:co.edu.uelbosque.swii.calculadora.NewTest@61a485d2]" name="laOperacionSumaExiste" duration-ms="3" started-at="2017-08-15T19:19:25Z" finished-at="2017-08-15T19:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laOperacionSumaExiste -->
+        <test-method status="PASS" signature="noDebeEncontrarLaOperacionPotencia()[pri:0, instance:co.edu.uelbosque.swii.calculadora.NewTest@61a485d2]" name="noDebeEncontrarLaOperacionPotencia" duration-ms="5" started-at="2017-08-15T19:19:25Z" finished-at="2017-08-15T19:19:26Z">
+          <exception class="co.edu.uelbosque.swii.calculadora.ComandoNoEncontradoException">
+            <full-stacktrace>
+              <![CDATA[co.edu.uelbosque.swii.calculadora.ComandoNoEncontradoException
+	at co.edu.uelbosque.swii.calculadora.EncontrarComando.cmd(EncontrarComando.java:13)
+	at co.edu.uelbosque.swii.calculadora.NewTest.noDebeEncontrarLaOperacionPotencia(NewTest.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- co.edu.uelbosque.swii.calculadora.ComandoNoEncontradoException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noDebeEncontrarLaOperacionPotencia -->
+      </class> <!-- co.edu.uelbosque.swii.calculadora.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
